@@ -1,0 +1,18 @@
+{
+  "args": {},
+  "data": "",
+  "files": {},
+  "form": {},
+  "headers": {
+    "Accept": "*/*",
+    "Accept-Encoding": "gzip,deflate",
+    "Cache-Control": "no-cache",
+    "Content-Length": "0",
+    "Host": "httpbin.org",
+    "User-Agent": "Apache-HttpClient/4.5.6 (Java/11.0.2)",
+    "X-Amzn-Trace-Id": "Root=1-5ec4f6d4-e8fe53c03c459e00fd7bcb80"
+  },
+  "json": null,
+  "origin": "58.40.17.82",
+  "url": "http://httpbin.org/post"
+}
