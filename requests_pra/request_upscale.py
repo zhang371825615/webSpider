@@ -42,7 +42,7 @@ headers={
     'User-Agent':'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.146 Safari/537.36',
     'Content-Type':'application/json;charset=UTF-8'
 }
-data={'password':'zjy001@@','userName':'198777'}
+data={'password':'123@@','userName':'123'}
 r1=s.post("http://at.deppon.com/api/user/login",data=json.dumps(data),headers=headers)
 for a in r1.cookies.iteritems():
     print(a[0],'===',a[1])
@@ -59,7 +59,7 @@ headers={
     'User-Agent':'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.146 Safari/537.36',
     'Content-Type':'application/x-www-form-urlencoded; charset=UTF-8'
 }
-data={"action":"login","method":"POST","data":{"userId":"zhangjiayi001","password":"zjy001@@"}}
+data={"action":"login","method":"POST","data":{"userId":"ad","password":"123@@"}}
 
 
 r12=s1.post("http://flow.deppon.com/api/base/",data=json.dumps(data),headers=headers)

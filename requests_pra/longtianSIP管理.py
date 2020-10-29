@@ -18,9 +18,10 @@ print(r1.text)
 #2、设置登陆授权
 headers['Authorization']=json.loads(r1.text).get('data')
 #3、发起请求
-url='http://117.78.60.39/api/sip/info/findSipInfo?page=1&size=17000'
-data={"sipDeviceId":"","departTypeCode":"","sipType":"","sipStatus":""}
+url='http://117.78.60.39/api/sip/info/findSipInfo?page=1&size=18000'
+data={"sipDeviceId":"","departTypeCode":"A","sipType":"","sipStatus":""}
 data=json.dumps(data)
+
 r1=requests.post(url=url,data=data,headers=headers)
 
 
@@ -37,5 +38,5 @@ for index,item in enumerate(list):
     print(item)
 
 
-workbook.save('longtian_SIP.xls')
+workbook.save('longtian_SIP_1.xls')
 
